@@ -1,9 +1,4 @@
 #!/usr/bin/env python
-#
-# test_ols.py -
-#
-# Author: Paul McCarthy <pauldmccarthy@gmail.com>
-#
 
 import numpy as np
 
