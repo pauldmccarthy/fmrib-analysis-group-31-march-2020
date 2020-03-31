@@ -2,7 +2,7 @@ WIN-BRC Why 'n' How: Automated testing in software tools
 --------------------------------------------------------
 
 
-[![pauldmccarthy](https://circleci.com/gh/pauldmccarthy/win-brc-automated-testing.svg?style=svg)](https://circleci.com/gh/pauldmccarthy/win-brc-automated-testing)
+[![pauldmccarthy](https://circleci.com/gh/pauldmccarthy/fmrib-analysis-group-31-march-2020.svg?style=svg)](https://circleci.com/gh/pauldmccarthy/fmrib-analysis-group-31-march-2020)
 
 
 This repository contains some example code used to demonstrate automated
@@ -17,7 +17,7 @@ for running the tests is in `.circleci/config.yml`.
 
 
 The CircleCI test page can be found
-[here](https://circleci.com/gh/pauldmccarthy/win-brc-automated-testing).
+[here](https://circleci.com/gh/pauldmccarthy/fmrib-analysis-group-31-march-2020).
 
 
 This example accompanies a talk first given at the Department of Psychiatry,
