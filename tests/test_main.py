@@ -38,7 +38,8 @@ def test_main():
         np.savetxt('data.txt', test_data)
         np.savetxt('model.txt', test_model)
 
-        main.main('data.txt', 'model.txt', 'pes.txt', 'residuals.txt')
+        args = ('data.txt', 'model.txt', 'pes.txt', 'residuals.txt')
+        main.main(args)
 
         fit = np.loadtxt('pes.txt')
         err = np.loadtxt('residuals.txt')
