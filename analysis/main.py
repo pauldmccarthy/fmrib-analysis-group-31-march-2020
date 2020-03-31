@@ -1,7 +1,9 @@
 #!/usr/bin/env python
 
+
 import numpy as np
 import sys
+
 
 def ols(data, model):
     """Perform ordinary-least-squares regression. """
@@ -9,8 +11,17 @@ def ols(data, model):
     error = data - (model @ fit)
     return fit, error
 
-def main(datafile, designfile, fitfile, errfile):
+
+def main(args=None):
     """Fit a linear model to some data. """
+
+    if args is None:
+        args = sys.argv[1:]
+
+    datafile   = args[0]
+    designfile = args[1]
+    fitfile    = args[2]
+    errfile    = args[3]
 
     # load data and model
     data  = np.loadtxt(datafile)
@@ -23,9 +34,6 @@ def main(datafile, designfile, fitfile, errfile):
     np.savetxt(fitfile, fit)
     np.savetxt(errfile, error)
 
+
 if __name__ == '__main__':
-    datafile   = sys.argv[1]
-    designfile = sys.argv[2]
-    fitfile    = sys.argv[3]
-    errfile    = sys.argv[4]
-    main(datafile, designfile, fitfile, errfile)
+    sys.exit(main())
