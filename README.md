@@ -16,8 +16,12 @@ program are available in `tests/test_main.py`, and a CircleCI configuration
 for running the tests is in `.circleci/config.yml`.
 
 
-This example accompanies a talk given at the Department of Psychiatry,
-Unversity of Oxford, on Thursday February 13th, 2020. This talk is part of a
+The CircleCI test page can be found
+[here](https://circleci.com/gh/pauldmccarthy/win-brc-automated-testing).
+
+
+This example accompanies a talk first given at the Department of Psychiatry,
+Unversity of Oxford, on Thursday February 13th, 2020. This talk was part of a
 series of talks run jointly by the Wellcome Trust Centre for Integrative
 Neuroimaging and the Oxford Health Biomedical Research Centre.
 
